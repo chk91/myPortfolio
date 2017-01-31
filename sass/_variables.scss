@@ -1,0 +1,20 @@
+/*MEDIA QUERY @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+$tablet-width: 767px;
+$desktop-width: 1240px; 
+
+@mixin tablet {
+   @media (min-width: $tablet-width) {
+       @content;
+   }
+}
+
+@mixin desktop {
+   @media (min-width: $desktop-width) {
+       @content;
+   }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
