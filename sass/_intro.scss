@@ -1,0 +1,35 @@
+.intro-wrapper {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url("../../assets/office.jpg") no-repeat center;
+    background-size: cover;
+    background-color: #d1c0c0;
+    background-blend-mode: multiply;
+
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+
+    h1 {
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+    p {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+        line-height: 1.3;
+    }
+}
+
+.portrait-wrapper {
+    img {
+        width: 40%;
+        border-radius: 50%;
+    }
+}
