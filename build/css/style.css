@@ -51,44 +51,48 @@ table {
   max-width: 1240px; }
 
 .portfolio {
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 16px; }
+  font-size: 16px;
+  width: 100vw; }
 
 .intro-wrapper {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  height: 100vh;
+  height: 900px;
   background: url("../../assets/office.jpg") no-repeat center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color: #d1c0c0;
   background-blend-mode: multiply; }
+
+.header-nav-wrapper {
+  position: fixed;
+  width: 100vw; }
+
+.header-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 70px;
+  padding: 2rem 0; }
+  .header-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem; }
+    .header-nav a:hover {
+      color: #ff7f7f; }
 
 .intro {
   text-align: center;
   color: white;
-  padding-top: 2rem; }
+  padding-top: 90px; }
   .intro h1 {
     font-size: 2rem;
     padding: 1.5rem; }
   .intro p {
     width: 50%;
+    font-size: 1.5rem;
     margin: 0 auto;
     padding-bottom: 1.5rem;
     line-height: 1.3; }
 
 .portrait-wrapper img {
-  width: 40%;
+  width: 320px;
   border-radius: 50%; }
-
-.content-wrapper {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
-
-.header-nav {
-  display: -ms-flexbox;
-  display: flex; }
