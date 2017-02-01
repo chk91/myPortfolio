@@ -1,4 +1,41 @@
 .content-wrapper {
-
+    
 }
 
+.projects-wrapper {
+    div {
+        border-bottom: solid 1px gray;
+    }
+}
+
+.rfproject, .instanews, .aloha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80vw;
+    a {
+        text-decoration: none;
+        color: #ff7f7f;
+        &:hover {
+            color: #ce3d3d;
+        }
+    }
+    h3 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+    img {
+    width: 80vw;
+    padding: 1rem 0;
+    border-radius: 5%;
+    &:hover {
+        border: solid 1px black;
+    }
+    }
+    p {
+        padding: 2rem 0;
+    }
+}
