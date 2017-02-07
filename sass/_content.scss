@@ -1,12 +1,8 @@
-.content-wrapper {
-    
-}
-
 .projects-wrapper {
     div {
         border-bottom: solid 1px gray;
+        }
     }
-}
 
 .rfproject, .instanews, .aloha {
     display: flex;
@@ -14,7 +10,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 80vw;
+    width: 60vw;
     a {
         text-decoration: none;
         color: #ff7f7f;
